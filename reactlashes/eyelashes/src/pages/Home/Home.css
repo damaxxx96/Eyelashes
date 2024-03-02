@@ -1,17 +1,22 @@
 .home {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
   height: 100px;
+  margin-top: 20px;
   display: flex;
-
+  width: 80%;
   color: black;
   background-color: rgba(0, 0, 0, 0.3);
-
+  position: fixed;
   justify-content: space-between;
+  border: 3px solid white;
 }
 
 .button-container {
@@ -56,10 +61,12 @@
   height: 60px;
 }
 .oni:hover {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   transform: scale(1.1);
+  cursor: pointer;
 }
 .loginbutton:hover {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   transform: scale(1.1);
+  cursor: pointer;
 }

@@ -11,7 +11,7 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ user }) => {
-  const [showGluePage, setShowGluePage] = useState<boolean>(false);
+  const [showGluePage, setShowGluePage] = useState<boolean>(true);
   const [showTweezerPage, setShowTweezerPage] = useState<boolean>(false);
   const [showEyelashesPage, setShowEyelashesPage] = useState<boolean>(false);
 

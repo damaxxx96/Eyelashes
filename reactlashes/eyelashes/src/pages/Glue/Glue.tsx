@@ -37,9 +37,8 @@ const GluePage: React.FC = () => {
   };
 
   return (
-    <div>
-      <h2>You are at Glue</h2>
-      <h3>Glue List:</h3>
+    <div className="glue">
+      <h3 className="glue-header">GLUE LIST:</h3>
       <div className="glue-list">
         {glues.map((glue: any, index: number) => {
           const glueId = glue.id !== undefined ? glue.id : index + 1; // Use index + 1 as the ID if glue.id is undefined
